@@ -15,6 +15,8 @@ class DogPics extends Component {
         // console.log(this.props.url)
         return ( 
             <div>
+                <h1>Do you love dogs?</h1>
+                <h3>&#8681; If so, click this button! &#8681;</h3>
                 <button onClick={this.props.getRandomDog} >Click Here For Some Dogs</button>
                 {this.props.isFetching 
                 ? <h1>loading</h1>
